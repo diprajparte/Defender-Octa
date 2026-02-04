@@ -28,25 +28,4 @@
         .specs h2 {
             margin-bottom: 10px;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Defender Octa 2025</h1>
-        <img src="path-to-your-image.jpg" alt="Defender Octa 2025" class="image">
-        <div class="specs">
-            <h2>Engine Configurations</h2>
-            <p>- Engine Type: V8 Turbocharged</p>
-            <p>- Displacement: 4.0L</p>
-            <p>- Horsepower: 500 HP</p>
-            <p>- Torque: 600 Nm</p>
-            <h2>Performance</h2>
-            <p>- 0-100 km/h: 4.5 seconds</p>
-            <p>- Top Speed: 250 km/h</p>
-            <h2>Power Details</h2>
-            <p>- Fuel Type: Petrol</p>
-            <p>- Transmission: 8-Speed Automatic</p>
-        </div>
-    </div>
-</body>
-</html>
+    
