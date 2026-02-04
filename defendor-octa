@@ -1,31 +1,69 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Defender Octa 2025 Advertisement</title>
+    <title>For My Love Arpita</title>
     <style>
         body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            background-color: #0f172a; /* dark classy background */
+            color: #f8fafc;
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+
+        .letter {
+            background-color: #111827;
+            padding: 40px;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
             text-align: center;
+            color: #f43f5e;
         }
-        .image {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
         }
-        .specs {
-            text-align: left;
+
+        .signature {
+            margin-top: 30px;
+            text-align: right;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        .heart {
+            text-align: center;
+            font-size: 28px;
             margin-top: 20px;
+            color: #f43f5e;
         }
-        .specs h2 {
-            margin-bottom: 10px;
-        }
-    
+    </style>
+</head>
+<body>
+
+    <div class="letter">
+        <h1>My Dear Arpita ❤️</h1>
+
+        <p>
+            From the moment you came into my life, everything started feeling more beautiful.
+            Your smile gives me peace, your voice gives me strength, and your presence makes my
+            world complete.
+        </p>
+
+        <p>
+            Arpita, you are not just my girlfriend, you are my best friend, my comfort,
+            and my biggest happiness. Even on my worst days, thinking about you makes
+            everything better.
+        </p>
+
+        <p>
+            I may not be perfect, but my love for you is true and pure.
