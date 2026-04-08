@@ -8,72 +8,60 @@
             margin: 0;
             padding: 0;
             font-family: 'Georgia', serif;
-            background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+            background: linear-gradient(to right, #ffdde1, #ee9ca7);
         }
 
         .card {
             max-width: 650px;
             margin: 50px auto;
             padding: 40px;
-            background: #fffaf5;
+            background: #fff0f5;
             border-radius: 20px;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            border: 8px solid #f3e5ab;
-            position: relative;
-        }
-
-        .card::before {
-            content: "";
-            position: absolute;
-            top: -10px;
-            left: -10px;
-            right: -10px;
-            bottom: -10px;
-            border-radius: 25px;
-            border: 2px dashed #d4af37;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border: 6px solid #c2185b;
         }
 
         h1 {
-            color: #b76e79;
+            color: #c2185b;
             font-size: 42px;
-            margin-bottom: 10px;
         }
 
         h2 {
-            color: #555;
-            font-weight: normal;
-        }
-
-        .divider {
-            width: 80px;
-            height: 3px;
-            background: #d4af37;
-            margin: 20px auto;
+            color: #444;
         }
 
         .names {
-            font-size: 34px;
-            color: #c9a227;
+            font-size: 36px;
+            color: #ad1457;
             margin: 20px 0;
             font-weight: bold;
         }
 
         .heart {
-            color: #e75480;
-            font-size: 26px;
+            color: red;
+            font-size: 30px;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.2); }
+            100% { transform: scale(1); }
         }
 
         .date {
             font-size: 22px;
             margin-top: 15px;
-            color: #444;
+            color: #333;
         }
 
         .details {
             margin-top: 20px;
             font-size: 18px;
-            color: #666;
+            color: #555;
         }
 
         .footer {
@@ -82,9 +70,9 @@
             color: #777;
         }
 
-        .flowers {
-            font-size: 30px;
-            margin-bottom: 10px;
+        .love {
+            font-size: 28px;
+            margin: 10px 0;
         }
 
     </style>
@@ -92,13 +80,12 @@
 <body>
 
     <div class="card">
-        <div class="flowers">🌸🌿🌼</div>
+        <div class="love">❤️🌹💖🌸</div>
 
         <h1>Wedding Invitation</h1>
-        <div class="divider"></div>
 
         <h2>Together with their families</h2>
-        <h2>request the honor of your presence</h2>
+        <h2>invite you to celebrate the wedding of</h2>
 
         <div class="names">
             Nikita <span class="heart">❤️</span> Suhas
@@ -109,15 +96,15 @@
         </div>
 
         <div class="details">
-            Join us to celebrate love, laughter and a lifetime of happiness.
+            Join us in celebrating love, joy and togetherness 💞
         </div>
 
         <div class="footer">
-            With Love 💛<br>
+            With Love ❤️<br>
             Family & Friends
         </div>
 
-        <div class="flowers">🌼🌿🌸</div>
+        <div class="love">🌸💖🌹❤️</div>
     </div>
 
 </body>
