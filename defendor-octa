@@ -1,47 +1,68 @@
- pipeline {
-    agent any
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defender Octa 2025 Advertisement</title>
 
-    tools {
-        maven 'Maven3'
-        jdk 'JDK17'
-    }
-
-    stages {
-
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main',
-                    credentialsId: 'dip',
-                    url: 'https://github.com/diprajparte/Defender-Octa.git'
-            }
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
         }
 
-        stage('Build') {
-            steps {
-                sh 'mvn clean compile'
-            }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
         }
 
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
+        .image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
 
-        stage('Package') {
-            steps {
-                sh 'mvn package'
-            }
+        .specs {
+            text-align: left;
+            margin-top: 20px;
         }
 
-    }
+        .specs h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
 
-    post {
-        success {
-            echo 'Build Successful 🎉'
-        }
-        failure {
-            echo 'Build Failed ❌'
-        }
-    }
-}
+<body>
+
+    <div class="container">
+        <h1>Defender Octa 2025</h1>
+
+        <!-- ✅ REAL IMAGE (NOT webpage link) -->
+        <img src="https://monochrome-watches.com/wp-content/uploads/2025/11/Land-Rover-Defender-Dakar-D7X-R-1.jpg" 
+             alt="Defender Octa Dakar 2026" 
+             class="image">
+
+        <div class="specs">
+            <h2>Engine Configurations</h2>
+            <p>- Engine Type: V8 Turbocharged</p>
+            <p>- Displacement: 4.0L</p>
+            <p>- Horsepower: 500 HP</p>
+            <p>- Torque: 600 Nm</p>
+
+            <h2>Performance</h2>
+            <p>- 0-100 km/h: 4.5 seconds</p>
+            <p>- Top Speed: 250 km/h</p>
+
+            <h2>Power Details</h2>
+            <p>- Fuel Type: Petrol</p>
+            <p>- Transmission: 8-Speed Automatic</p>
+        </div>
+    </div>
+
+</body>
+</html>
