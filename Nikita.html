@@ -5,64 +5,119 @@
     <title>Wedding Invitation</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             font-family: 'Georgia', serif;
-            background: #fdf6f0;
-            text-align: center;
-            padding: 50px;
+            background: linear-gradient(to right, #fdfcfb, #e2d1c3);
         }
+
         .card {
-            background: white;
+            max-width: 650px;
+            margin: 50px auto;
             padding: 40px;
-            border-radius: 15px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            background: #fffaf5;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border: 8px solid #f3e5ab;
+            position: relative;
         }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 25px;
+            border: 2px dashed #d4af37;
+        }
+
         h1 {
             color: #b76e79;
-            font-size: 40px;
+            font-size: 42px;
+            margin-bottom: 10px;
         }
+
         h2 {
-            color: #444;
+            color: #555;
+            font-weight: normal;
         }
+
+        .divider {
+            width: 80px;
+            height: 3px;
+            background: #d4af37;
+            margin: 20px auto;
+        }
+
         .names {
-            font-size: 30px;
+            font-size: 34px;
+            color: #c9a227;
             margin: 20px 0;
-            color: #d4af37;
+            font-weight: bold;
         }
+
+        .heart {
+            color: #e75480;
+            font-size: 26px;
+        }
+
         .date {
             font-size: 22px;
-            margin-top: 20px;
+            margin-top: 15px;
+            color: #444;
         }
+
+        .details {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #666;
+        }
+
         .footer {
             margin-top: 30px;
             font-style: italic;
-            color: #666;
+            color: #777;
         }
+
+        .flowers {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="card">
+        <div class="flowers">🌸🌿🌼</div>
+
         <h1>Wedding Invitation</h1>
-        <h2>We are delighted to invite you to the wedding of</h2>
+        <div class="divider"></div>
+
+        <h2>Together with their families</h2>
+        <h2>request the honor of your presence</h2>
 
         <div class="names">
-            Nikita ❤️ Suhas
+            Nikita <span class="heart">❤️</span> Suhas
         </div>
 
         <div class="date">
-            On 20th May
+            20th May
         </div>
 
-        <p>
-            Your presence will make this occasion more special and memorable.
-        </p>
+        <div class="details">
+            Join us to celebrate love, laughter and a lifetime of happiness.
+        </div>
 
         <div class="footer">
-            With love,<br>
+            With Love 💛<br>
             Family & Friends
         </div>
+
+        <div class="flowers">🌼🌿🌸</div>
     </div>
 
 </body>
