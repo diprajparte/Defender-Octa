@@ -7,7 +7,7 @@
 
     <style>
         body {
-            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
             font-family: 'Segoe UI', sans-serif;
             display: flex;
             justify-content: center;
@@ -26,11 +26,9 @@
             text-align: center;
             color: #fff;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            border: 2px solid rgba(255,255,255,0.2);
         }
 
         h1 {
-            color: #fff;
             font-size: 32px;
             margin-bottom: 15px;
         }
@@ -41,12 +39,27 @@
             color: #ffeef2;
         }
 
-        .name {
-            color: #ffd6e0;
+        /* Arpita highlight */
+        .arpita {
+            color: #ff1e56;
             font-weight: bold;
-            font-size: 20px;
+            animation: glow 1.5s infinite alternate;
         }
 
+        @keyframes glow {
+            from { text-shadow: 0 0 5px #ff1e56; }
+            to { text-shadow: 0 0 20px #ff4d6d; }
+        }
+
+        /* Dipraj text */
+        .name {
+            color: #000;
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 15px;
+        }
+
+        /* Heart animation */
         .heart {
             font-size: 35px;
             margin-top: 20px;
@@ -59,7 +72,7 @@
             100% { transform: scale(1); }
         }
 
-        /* Floating hearts decoration */
+        /* Floating hearts */
         .floating {
             position: absolute;
             color: rgba(255,255,255,0.6);
@@ -92,7 +105,7 @@
 <div class="floating" style="left:85%; animation-duration:6s;">💗</div>
 
 <div class="letter">
-    <h1>My Dearest Arpita ❤️</h1>
+    <h1>My Dearest <span class="arpita">Arpita</span> ❤️</h1>
 
     <p>
         I don’t even know where to start, but I just want to tell you how much you mean to me.  
