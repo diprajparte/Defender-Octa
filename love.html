@@ -2,79 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>For My Love Arpita</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Arpita ❤️</title>
+
     <style>
         body {
-            background-color: #0f172a; /* dark classy background */
-            color: #f8fafc;
-            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+            font-family: 'Segoe UI', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
+            overflow: hidden;
         }
 
         .letter {
-            background-color: #111827;
-            padding: 40px;
-            max-width: 600px;
-            border-radius: 12px;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            border-radius: 20px;
+            max-width: 650px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 2px solid rgba(255,255,255,0.2);
         }
 
         h1 {
-            text-align: center;
-            color: #f43f5e;
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 15px;
         }
 
         p {
             font-size: 18px;
-            line-height: 1.6;
+            line-height: 1.7;
+            color: #ffeef2;
         }
 
-        .signature {
-            margin-top: 30px;
-            text-align: right;
+        .name {
+            color: #ffd6e0;
             font-weight: bold;
-            color: #38bdf8;
+            font-size: 20px;
         }
 
         .heart {
-            text-align: center;
-            font-size: 28px;
+            font-size: 35px;
             margin-top: 20px;
-            color: #f43f5e;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+
+        /* Floating hearts decoration */
+        .floating {
+            position: absolute;
+            color: rgba(255,255,255,0.6);
+            animation: float 6s linear infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh);
+                opacity: 0;
+            }
         }
     </style>
 </head>
+
 <body>
 
-    <div class="letter">
-        <h1>My Dear Arpita ❤️</h1>
+<!-- Floating hearts -->
+<div class="floating" style="left:10%; animation-duration:6s;">❤️</div>
+<div class="floating" style="left:30%; animation-duration:8s;">💖</div>
+<div class="floating" style="left:50%; animation-duration:7s;">💕</div>
+<div class="floating" style="left:70%; animation-duration:9s;">❤️</div>
+<div class="floating" style="left:85%; animation-duration:6s;">💗</div>
 
-        <p>
-            From the moment you came into my life, everything started feeling more beautiful.
-            Your smile gives me peace, your voice gives me strength, and your presence makes my
-            world complete.
-        </p>
+<div class="letter">
+    <h1>My Dearest Arpita ❤️</h1>
 
-        <p>
-            Arpita, you are not just my girlfriend, you are my best friend, my comfort,
-            and my biggest happiness. Even on my worst days, thinking about you makes
-            everything better.
-        </p>
+    <p>
+        I don’t even know where to start, but I just want to tell you how much you mean to me.  
+        Every moment without you feels incomplete, and I miss you more than words can express.
+    </p>
 
-        <p>
-            I may not be perfect, but my love for you is true and pure.
-        </p>
+    <p>
+        You are not just my girlfriend, you are my happiness, my peace, and my biggest strength.  
+        Thinking about you brings a smile to my face even on my worst days.
+    </p>
 
-        <div class="heart">❤️❤️❤️</div>
+    <p>
+        I love you more than anything in this world, and I promise to always care for you,  
+        respect you, and stand by your side no matter what happens.
+    </p>
 
-        <div class="signature">
-            — Dipraj
-        </div>
-    </div>
+    <p>
+        I miss you so much… and I can’t wait to see you again.  
+        Until then, just remember — you are always in my heart.
+    </p>
+
+    <p class="name">
+        Forever yours,<br>Dipraj 💖
+    </p>
+
+    <div class="heart">❤️</div>
+</div>
 
 </body>
 </html>
